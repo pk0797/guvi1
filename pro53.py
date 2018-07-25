@@ -7,4 +7,4 @@ def ispangram(p, k=string.ascii_lowercase):
 if  ispangram(input())== True:
 	print("yes")
 else:
-print("no")
+            print("no")
