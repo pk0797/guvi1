@@ -1,8 +1,10 @@
 import string
-input = raw_input
  
-def ispangram(sentence, alphabet=string.ascii_lowercase):
-    alphaset = set(alphabet)
-    return alphaset <= set(sentence.lower())
+def ispangram(s, a=string.ascii_lowercase):
+    a= set(a)
+    return a <= set(s.lower())
  
-print ( ispangram(input('The Sentence is: ')) )
+if  ispangram(input())== True:
+	print("yes")
+else:
+print("no")
