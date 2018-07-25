@@ -1,8 +1,8 @@
 import string
  
-def ispangram(s, a=string.ascii_lowercase):
-    a= set(a)
-    return a <= set(s.lower())
+def ispangram(p, k=string.ascii_lowercase):
+    k= set(k)
+    return k <= set(p.lower())
  
 if  ispangram(input())== True:
 	print("yes")
